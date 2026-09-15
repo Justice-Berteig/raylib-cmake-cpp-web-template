@@ -1,0 +1,12 @@
+{
+    "version": 10,
+    "configurePresets": [
+        {
+            "name": "Web",
+            "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "${PATH_TO_EMSCRIPTEN}/cmake/Modules/Platform/Emscripten.cmake",
+                "PLATFORM": "Web"
+            }
+        }
+    ]
+}
